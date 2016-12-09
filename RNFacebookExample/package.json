@@ -1,0 +1,47 @@
+{
+  "name": "RNFacebookExample",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "gravatar-api": "^1.4.0",
+    "immutable": "^3.8.1",
+    "key-mirror": "^1.0.1",
+    "ramda": "^0.22.1",
+    "react": "~15.3.1",
+    "react-native": "0.37.0",
+    "react-native-elements": "^0.7.0",
+    "react-native-fbsdk": "^0.4.0",
+    "react-native-invertible-scroll-view": "^1.0.0",
+    "react-native-keyboard-spacer": "^0.3.0",
+    "react-native-meteor": "^1.0.1",
+    "react-native-router-flux": "^3.37.0",
+    "react-native-scrollable-tab-view": "^0.6.0",
+    "react-native-simple-store": "^1.1.0",
+    "react-native-vector-icons": "^3.0.0",
+    "react-redux": "^4.4.6",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.7.4",
+    "redux-thunk": "^2.1.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-jest": "17.0.0",
+    "babel-preset-react-native": "1.9.0",
+    "eslint": "^3.11.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0",
+    "jest": "17.0.0",
+    "jest-react-native": "17.0.0",
+    "react-test-renderer": "~15.3.1",
+    "remote-redux-devtools": "^0.5.5"
+  },
+  "jest": {
+    "preset": "jest-react-native"
+  }
+}
